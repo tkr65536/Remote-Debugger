@@ -9,3 +9,7 @@ In the Issue Tracker:
 Current Information
 	Current Version: 0.1
 	Currently working on Milestone: Version V0.2
+
+Created by Theodore (Teddy) K. Reiss
+tkr65536@aol.com
+reisst@horacemann.org
