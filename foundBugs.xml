@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.0" sequence="0" timestamp="1364776908937" analysisTimestamp="1364776917125" release="">
+  <Project projectName="RemoteDebugger">
+    <Jar>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\dist\RemoteDebugger.jar</Jar>
+    <AuxClasspathEntry>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\dist\lib\commons-cli.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\dist\lib\jtools.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\dist\lib\pccomm.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\dist\lib\pctools.jar</AuxClasspathEntry>
+    <SrcDir>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\src</SrcDir>
+    <SrcDir>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\src\java</SrcDir>
+    <SrcDir>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebugger-MotorAddition\src\java</SrcDir>
+  </Project>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS">
+    <Class classname="main.NXTSensorMonitor">
+      <SourceLine classname="main.NXTSensorMonitor" start="22" end="107" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java"/>
+    </Class>
+    <Field classname="main.NXTSensorMonitor" name="S1" signature="Lsensor/Sensor;" isStatic="false">
+      <SourceLine classname="main.NXTSensorMonitor" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java"/>
+    </Field>
+    <Int value="75" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="99" end="99" startBytecode="2" endBytecode="2" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="43" end="43" startBytecode="20" endBytecode="20" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="44" end="44" startBytecode="27" endBytecode="27" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="47" end="47" startBytecode="48" endBytecode="48" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS">
+    <Class classname="main.NXTSensorMonitor">
+      <SourceLine classname="main.NXTSensorMonitor" start="22" end="107" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java"/>
+    </Class>
+    <Field classname="main.NXTSensorMonitor" name="S2" signature="Lsensor/Sensor;" isStatic="false">
+      <SourceLine classname="main.NXTSensorMonitor" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java"/>
+    </Field>
+    <Int value="75" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="100" end="100" startBytecode="7" endBytecode="7" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="50" end="50" startBytecode="55" endBytecode="55" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="51" end="51" startBytecode="62" endBytecode="62" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="54" end="54" startBytecode="83" endBytecode="83" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS">
+    <Class classname="main.NXTSensorMonitor">
+      <SourceLine classname="main.NXTSensorMonitor" start="22" end="107" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java"/>
+    </Class>
+    <Field classname="main.NXTSensorMonitor" name="S3" signature="Lsensor/Sensor;" isStatic="false">
+      <SourceLine classname="main.NXTSensorMonitor" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java"/>
+    </Field>
+    <Int value="75" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="101" end="101" startBytecode="12" endBytecode="12" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="57" end="57" startBytecode="90" endBytecode="90" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="58" end="58" startBytecode="97" endBytecode="97" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="61" end="61" startBytecode="118" endBytecode="118" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS">
+    <Class classname="main.NXTSensorMonitor">
+      <SourceLine classname="main.NXTSensorMonitor" start="22" end="107" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java"/>
+    </Class>
+    <Field classname="main.NXTSensorMonitor" name="S4" signature="Lsensor/Sensor;" isStatic="false">
+      <SourceLine classname="main.NXTSensorMonitor" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java"/>
+    </Field>
+    <Int value="75" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="102" end="102" startBytecode="18" endBytecode="18" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="64" end="64" startBytecode="125" endBytecode="125" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="65" end="65" startBytecode="132" endBytecode="132" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="main.NXTSensorMonitor" start="68" end="68" startBytecode="155" endBytecode="155" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="SWL_SLEEP_WITH_LOCK_HELD" priority="2" abbrev="SWL" category="MT_CORRECTNESS">
+    <Class classname="main.NXTSensorMonitor">
+      <SourceLine classname="main.NXTSensorMonitor" start="22" end="107" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java"/>
+    </Class>
+    <Method classname="main.NXTSensorMonitor" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="main.NXTSensorMonitor" start="34" end="77" startBytecode="0" endBytecode="512" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java"/>
+    </Method>
+    <SourceLine classname="main.NXTSensorMonitor" start="73" end="73" startBytecode="164" endBytecode="164" sourcefile="NXTSensorMonitor.java" sourcepath="main/NXTSensorMonitor.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="main.RobotTableModel">
+      <SourceLine classname="main.RobotTableModel" start="22" end="34" sourcefile="RobotTableModel.java" sourcepath="main/RobotTableModel.java"/>
+    </Class>
+    <Method classname="main.RobotTableModel" name="&lt;init&gt;" signature="([Z[Ljava/lang/Object;I)V" isStatic="false">
+      <SourceLine classname="main.RobotTableModel" start="22" end="24" startBytecode="0" endBytecode="91" sourcefile="RobotTableModel.java" sourcepath="main/RobotTableModel.java"/>
+    </Method>
+    <Field classname="main.RobotTableModel" name="editable" signature="[Z" isStatic="false">
+      <SourceLine classname="main.RobotTableModel" sourcefile="RobotTableModel.java" sourcepath="main/RobotTableModel.java"/>
+    </Field>
+    <LocalVariable name="editableCols" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="main.RobotTableModel" start="23" end="23" startBytecode="8" endBytecode="8" sourcefile="RobotTableModel.java" sourcepath="main/RobotTableModel.java"/>
+  </BugInstance>
+  <BugInstance type="SC_START_IN_CTOR" priority="2" abbrev="SC" category="MT_CORRECTNESS">
+    <Class classname="main.UI">
+      <SourceLine classname="main.UI" start="28" end="503" sourcefile="UI.java" sourcepath="main/UI.java"/>
+    </Class>
+    <Method classname="main.UI" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="main.UI" start="47" end="74" startBytecode="0" endBytecode="321" sourcefile="UI.java" sourcepath="main/UI.java"/>
+    </Method>
+    <Method classname="java.lang.Thread" name="start" signature="()V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Thread" start="681" end="703" startBytecode="0" endBytecode="230" sourcefile="Thread.java" sourcepath="java/lang/Thread.java"/>
+    </Method>
+    <SourceLine classname="main.UI" start="67" end="67" startBytecode="126" endBytecode="126" sourcefile="UI.java" sourcepath="main/UI.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 31 Mar 2013 20:41:48 -0400" total_classes="27" referenced_classes="100" total_bugs="7" total_size="1011" num_packages="2" vm_version="21.0-b17" cpu_seconds="3.58" clock_seconds="6.84" peak_mbytes="62.53" alloc_mbytes="247.50" gc_seconds="0.35" priority_2="7">
+    <PackageStats package="main" total_bugs="7" total_types="20" total_size="808" priority_2="7">
+      <ClassStats class="main.Brick" sourceFile="Brick.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="main.Constants" sourceFile="Constants.java" interface="false" size="54" bugs="0"/>
+      <ClassStats class="main.Main" sourceFile="Main.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="main.MotorData" sourceFile="MotorData.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="main.NXTMotorMonitor" sourceFile="NXTMotorMonitor.java" interface="false" size="73" bugs="0"/>
+      <ClassStats class="main.NXTMotorMonitor$NXTMotorListener" sourceFile="NXTMotorMonitor.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="main.NXTSensorMonitor" sourceFile="NXTSensorMonitor.java" interface="false" size="67" bugs="5" priority_2="5"/>
+      <ClassStats class="main.NXTSensorMonitor$NXTSensorListener" sourceFile="NXTSensorMonitor.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="main.OldUI" sourceFile="OldUI.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="main.RobotTableModel" sourceFile="RobotTableModel.java" interface="false" size="12" bugs="1" priority_2="1"/>
+      <ClassStats class="main.Test" sourceFile="Test.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="main.TypeConverter" sourceFile="TypeConverter.java" interface="false" size="118" bugs="0"/>
+      <ClassStats class="main.UI" sourceFile="UI.java" interface="false" size="257" bugs="1" priority_2="1"/>
+      <ClassStats class="main.UI$1" sourceFile="UI.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="main.UI$ModeBoxUpdater" sourceFile="UI.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="main.UI$MotorEditTableListener" sourceFile="UI.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="main.UI$MotorListener" sourceFile="UI.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="main.UI$SensorComboBoxListener" sourceFile="UI.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="main.UI$UIUpdater" sourceFile="UI.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="main.UI$UpdateListener" sourceFile="UI.java" interface="false" size="23" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="sensor" total_bugs="0" total_types="7" total_size="203">
+      <ClassStats class="sensor.HTIRSeekerV2" sourceFile="HTIRSeekerV2.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="sensor.LegoColorSensor" sourceFile="LegoColorSensor.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="sensor.LegoLightSensor" sourceFile="LegoLightSensor.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="sensor.LegoSoundSensor" sourceFile="LegoSoundSensor.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="sensor.LegoTouchSensor" sourceFile="LegoTouchSensor.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="sensor.LegoUltrasonicSensor" sourceFile="LegoUltrasonicSensor.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="sensor.Sensor" sourceFile="Sensor.java" interface="true" size="8" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="1666" invocations="27" avgMicrosecondsPerInvocation="61735" maxMicrosecondsPerInvocation="883027" standardDeviationMircosecondsPerInvocation="172846"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindReturnRef" totalMilliseconds="737" invocations="27" avgMicrosecondsPerInvocation="27298" maxMicrosecondsPerInvocation="734388" standardDeviationMircosecondsPerInvocation="138671"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="566" invocations="809" avgMicrosecondsPerInvocation="700" maxMicrosecondsPerInvocation="171196" standardDeviationMircosecondsPerInvocation="6163"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="144" invocations="131" avgMicrosecondsPerInvocation="1106" maxMicrosecondsPerInvocation="84887" standardDeviationMircosecondsPerInvocation="7401"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="134" invocations="98" avgMicrosecondsPerInvocation="1376" maxMicrosecondsPerInvocation="83518" standardDeviationMircosecondsPerInvocation="8475"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="126" invocations="100" avgMicrosecondsPerInvocation="1266" maxMicrosecondsPerInvocation="17316" standardDeviationMircosecondsPerInvocation="2805"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="123" invocations="119" avgMicrosecondsPerInvocation="1039" maxMicrosecondsPerInvocation="83397" standardDeviationMircosecondsPerInvocation="7656"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="111" invocations="145" avgMicrosecondsPerInvocation="770" maxMicrosecondsPerInvocation="96257" standardDeviationMircosecondsPerInvocation="7960"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="107" invocations="136" avgMicrosecondsPerInvocation="793" maxMicrosecondsPerInvocation="20820" standardDeviationMircosecondsPerInvocation="2410"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="106" invocations="100" avgMicrosecondsPerInvocation="1063" maxMicrosecondsPerInvocation="17887" standardDeviationMircosecondsPerInvocation="2734"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="97" invocations="131" avgMicrosecondsPerInvocation="744" maxMicrosecondsPerInvocation="17199" standardDeviationMircosecondsPerInvocation="2087"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="93" invocations="100" avgMicrosecondsPerInvocation="933" maxMicrosecondsPerInvocation="58594" standardDeviationMircosecondsPerInvocation="5918"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

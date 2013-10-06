@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.0" sequence="0" timestamp="1351969772125" analysisTimestamp="1351969824640" release="">
+  <Project projectName="RemoteDebugger">
+    <Jar>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\dist\RemoteDebugger.jar</Jar>
+    <AuxClasspathEntry>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\dist\lib\commons-cli.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\dist\lib\jtools.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\dist\lib\pccomm.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\dist\lib\pctools.jar</AuxClasspathEntry>
+    <SrcDir>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\src</SrcDir>
+    <SrcDir>C:\Teddy\Programs\Robotics\RemoteDebugger\RemoteDebuggerMain\src\java</SrcDir>
+  </Project>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="main.RobotTableModel">
+      <SourceLine classname="main.RobotTableModel" start="21" end="37" sourcefile="RobotTableModel.java" sourcepath="main/RobotTableModel.java"/>
+    </Class>
+    <Method classname="main.RobotTableModel" name="&lt;init&gt;" signature="([Z)V" isStatic="false">
+      <SourceLine classname="main.RobotTableModel" start="21" end="23" startBytecode="0" endBytecode="69" sourcefile="RobotTableModel.java" sourcepath="main/RobotTableModel.java"/>
+    </Method>
+    <Field classname="main.RobotTableModel" name="editable" signature="[Z" isStatic="false">
+      <SourceLine classname="main.RobotTableModel" sourcefile="RobotTableModel.java" sourcepath="main/RobotTableModel.java"/>
+    </Field>
+    <LocalVariable name="editableCols" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="main.RobotTableModel" start="22" end="22" startBytecode="6" endBytecode="6" sourcefile="RobotTableModel.java" sourcepath="main/RobotTableModel.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="main.RobotTableModel">
+      <SourceLine classname="main.RobotTableModel" start="21" end="37" sourcefile="RobotTableModel.java" sourcepath="main/RobotTableModel.java"/>
+    </Class>
+    <Method classname="main.RobotTableModel" name="&lt;init&gt;" signature="([Z[Ljava/lang/Object;I)V" isStatic="false">
+      <SourceLine classname="main.RobotTableModel" start="25" end="27" startBytecode="0" endBytecode="91" sourcefile="RobotTableModel.java" sourcepath="main/RobotTableModel.java"/>
+    </Method>
+    <Field classname="main.RobotTableModel" name="editable" signature="[Z" isStatic="false">
+      <SourceLine classname="main.RobotTableModel" sourcefile="RobotTableModel.java" sourcepath="main/RobotTableModel.java"/>
+    </Field>
+    <LocalVariable name="editableCols" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="main.RobotTableModel" start="26" end="26" startBytecode="8" endBytecode="8" sourcefile="RobotTableModel.java" sourcepath="main/RobotTableModel.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="main.UI$UIUpdater">
+      <SourceLine classname="main.UI$UIUpdater" start="475" end="503" sourcefile="UI.java" sourcepath="main/UI.java"/>
+    </Class>
+    <Field classname="main.UI$UIUpdater" name="port" signature="Llejos/nxt/SensorPort;" isStatic="false">
+      <SourceLine classname="main.UI$UIUpdater" sourcefile="UI.java" sourcepath="main/UI.java"/>
+    </Field>
+    <SourceLine classname="main.UI$UIUpdater" start="482" end="482" startBytecode="11" endBytecode="11" sourcefile="UI.java" sourcepath="main/UI.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="main.UI$UIUpdater">
+      <SourceLine classname="main.UI$UIUpdater" start="475" end="503" sourcefile="UI.java" sourcepath="main/UI.java"/>
+    </Class>
+    <Field classname="main.UI$UIUpdater" name="portName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.UI$UIUpdater" sourcefile="UI.java" sourcepath="main/UI.java"/>
+    </Field>
+    <SourceLine classname="main.UI$UIUpdater" start="483" end="483" startBytecode="16" endBytecode="16" sourcefile="UI.java" sourcepath="main/UI.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 3 Nov 2012 15:09:32 -0400" total_classes="22" referenced_classes="94" total_bugs="4" total_size="857" num_packages="2" vm_version="21.0-b17" cpu_seconds="3.41" clock_seconds="19.11" peak_mbytes="59.41" alloc_mbytes="247.50" gc_seconds="0.83" priority_2="4">
+    <PackageStats package="main" total_bugs="4" total_types="15" total_size="661" priority_2="4">
+      <ClassStats class="main.Brick" sourceFile="Brick.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="main.Constants" sourceFile="Constants.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="main.Main" sourceFile="Main.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="main.NXTSensorMonitor" sourceFile="NXTSensorMonitor.java" interface="false" size="64" bugs="0"/>
+      <ClassStats class="main.NXTSensorMonitor$NXTListener" sourceFile="NXTSensorMonitor.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="main.OldUI" sourceFile="OldUI.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="main.RobotTableModel" sourceFile="RobotTableModel.java" interface="false" size="16" bugs="2" priority_2="2"/>
+      <ClassStats class="main.Test" sourceFile="Test.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="main.TypeConverter" sourceFile="TypeConverter.java" interface="false" size="100" bugs="0"/>
+      <ClassStats class="main.UI" sourceFile="UI.java" interface="false" size="271" bugs="0"/>
+      <ClassStats class="main.UI$1" sourceFile="UI.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="main.UI$ModeBoxUpdater" sourceFile="UI.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="main.UI$SensorComboBoxListener" sourceFile="UI.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="main.UI$UIUpdater" sourceFile="UI.java" interface="false" size="16" bugs="2" priority_2="2"/>
+      <ClassStats class="main.UI$UpdateListener" sourceFile="UI.java" interface="false" size="23" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="sensor" total_bugs="0" total_types="7" total_size="196">
+      <ClassStats class="sensor.HTIRSeekerV2" sourceFile="HTIRSeekerV2.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="sensor.LegoColorSensor" sourceFile="LegoColorSensor.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="sensor.LegoLightSensor" sourceFile="LegoLightSensor.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="sensor.LegoSoundSensor" sourceFile="LegoSoundSensor.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="sensor.LegoTouchSensor" sourceFile="LegoTouchSensor.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="sensor.LegoUltrasonicSensor" sourceFile="LegoUltrasonicSensor.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="sensor.Sensor" sourceFile="Sensor.java" interface="true" size="8" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="8672" invocations="802" avgMicrosecondsPerInvocation="10814" maxMicrosecondsPerInvocation="531477" standardDeviationMircosecondsPerInvocation="47429"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="720" invocations="799" avgMicrosecondsPerInvocation="901" maxMicrosecondsPerInvocation="277099" standardDeviationMircosecondsPerInvocation="10042"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindReturnRef" totalMilliseconds="687" invocations="22" avgMicrosecondsPerInvocation="31256" maxMicrosecondsPerInvocation="685571" standardDeviationMircosecondsPerInvocation="142783"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
